@@ -6,5 +6,5 @@ NodeJs, express.js, MongoDB, Robo3T, CSS.
 
 Install the dependencies using [npm install](https://docs.npmjs.com/downloading-and-installing-packages-locally)
 
-Go inside the directory MyContactList and run [node index.js](https://stackabuse.com/how-to-start-a-node-server-examples-with-the-most-popular-frameworks/)
+Go inside the directory Phonebook-Web-App and run [node index.js](https://stackabuse.com/how-to-start-a-node-server-examples-with-the-most-popular-frameworks/)
 

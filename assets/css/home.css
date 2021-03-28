@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin: 25px;
+    color: grey;
+}
+
+#contact-container{
+    width:60vw;
+    position:relative;
+    left: 17.5%;
+    
+}
+
+li{
+    list-style-type: none;
+    background-color: rgb(101, 101, 235);
+    /* margin-bottom: 10px; */
+    border-bottom:2px solid white;
+    border-radius:4px;
+}
+#details{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:90%;
+}
+div ul li p {
+    display: inline-block;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: medium;
+}
+
+
+#list-item:hover{
+    background-color:grey;
+    
+    transition: all 0.5s ease-in-out;
+}
+
+#name{
+    margin-right: 30%;
+}
+
+input{
+    border:0px;
+    border-bottom: 1px solid grey;
+    width:15%;
+    margin: 2%;
+    height: 7%;
+    font-size: large;
+}
+button{
+    color: white;
+    background-color: red;
+    border: 0px;
+    width: 15%;
+    height: 7%;
+    font-size: large;
+    font-family: cursive;
+
+}
+button:hover{
+    background-color: brown;
+    transition: all 0.5s ease-in-out;
+}
+
+#delete{
+    display:flex;
+    flex-wrap: wrap;
+    width:10%;
+    padding: 3px;
+    text-align:center;
+    
+}
+
+#delete i{
+    background-color: red;
+    color:white;
+    border-radius:2px;
+    font-size: large;
+}
+
